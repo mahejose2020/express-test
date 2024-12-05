@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express(); 
-const PORT = 3000;
+const PORT = 5000;
 app.get('/', (req, res) => 
-    { res.send('Hello World!'); });
-app.get('/greet', (req, res) => {
-res.send('Greet!'); });
+    { res.send('Good morning Rwanda!'); });
+app.get('/great', (req, res) => {
+res.send('Thank you!'); });
 app.get('/hello', (req, res) => 
     { res.send('Konnichiha'); });
 app.listen(PORT, () => 
